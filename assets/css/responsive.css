@@ -1,0 +1,94 @@
+/**pc*/
+@media(min-width:64em){/*1024px*/
+    
+}
+
+/*tablet và mobile*/
+@media(max-width: 63.9375em){/*1023px*/
+    .btn{
+        padding: 15px 16px;
+    }
+    #nav .subnav li{
+        padding: 5px 12px;
+    }
+    
+    .contact-form .form-control{
+        padding: 15px;
+    }
+    .contect-info {
+        line-height: 2;
+    }
+    #footer .socials-list{
+        font: 48px;
+    }
+    #footer .socials-list a{
+        margin: 0 8px;
+    }
+    #footer .copyright a{
+        padding: 12px 0;
+        display: inline-block;
+    }
+}
+
+/*tablet*/
+@media (min-width: 46.25em)/*740px*/and (max-width: 63.9375em)/*1023px*/{
+    
+}
+
+/*mobile*/
+@media(max-width: 46.1875em){/*739px*/
+
+    .s-full-width,
+    .s-col-full{
+        width: 100%;
+    }
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+
+
+
+    #header {
+        overflow: hidden;/*ẩn đi khi thừa ra ngoài*/
+    }
+    #header .search-button{
+        display: none;/*ẩn đi*/
+    }
+    #header .mobile-menu-btn{
+        display: block;
+    }
+    
+    #nav {
+        display: block;
+    }
+    #nav .subnav {
+        position: initial;/*bỏ giá trị của position:absolute bên pc*/
+        background-color: #333;
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 41px;
+    }
+    #nav li a{
+        padding: 1px 24px;
+    }
+    #nav >li{
+        display: block;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+
+
+    #content .member-item-mobile{
+        margin-top: 30px;
+        width:50%;
+    }
+    #content .member-img{
+        width: 95%;
+    }
+    .contact-form{
+        margin-top: 32px;
+    }
+    
+}
